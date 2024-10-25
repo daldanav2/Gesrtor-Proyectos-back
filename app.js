@@ -23,7 +23,7 @@ try {
 }
 
 app.get('/', (req,res)=>{
-    res.send('Hola mundo')
+    res.send('Hola mundo!')
 })
 
 app.listen(PORT, ()=>{
